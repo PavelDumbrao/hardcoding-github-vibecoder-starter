@@ -20,3 +20,11 @@
 5. Дальше агент сам ведёт ветки, коммиты, Pull Request, проверки и main.
 
 Тебе не нужно запоминать Git-команды.
+
+## GitHub CLI для ИИ
+
+Для Hardcoding PRO рекомендуемый режим работы: coding agent имеет доступ к официальному GitHub CLI gh.
+
+ИИ сам проверяет установку и авторизацию, создаёт branches, Pull Requests, Issues, Releases и проверяет GitHub Actions. Пользователь не обязан вводить Git-команды вручную.
+
+В репозитории уже есть .github/pull_request_template.md, чтобы каждый Pull Request имел одинаковую понятную структуру.

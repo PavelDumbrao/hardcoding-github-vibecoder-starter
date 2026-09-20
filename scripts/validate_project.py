@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-REQUIRED = ["README.md", "PROJECT.md", "TASKS.md", "AGENTS.md", ".gitignore"]
+REQUIRED = ["README.md", "PROJECT.md", "TASKS.md", "AGENTS.md", ".gitignore", ".github/pull_request_template.md"]
 SECRET_FILES = [".env", "id_rsa", "id_ed25519"]
 SUSPICIOUS_PATTERNS = [
     re.compile(r"(?i)(api[_-]?key|secret|token|password)\s*=\s*['\"]?[A-Za-z0-9_\-]{16,}"),
