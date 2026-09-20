@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.session
+*.sqlite
+*.sqlite3
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+.DS_Store
